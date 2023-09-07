@@ -37,9 +37,7 @@ body {
     flex-direction: column;
     row-gap: 1.5rem;
     color: #fff;
-    padding-left: 1rem;
-    padding-right: 1rem;
-    background-color: rgba(31, 41, 55, 0.2);
+    background-color: rgba(31, 41, 55, 0.4);
     border-radius: 0.75rem;
     border: 0 solid #e5e7eb;
     backdrop-filter: blur(4px);
@@ -55,6 +53,11 @@ body {
     font-size: .875rem;
     line-height: 1.7142857;
 }
+
+.banner-content p strong {
+    display: inline-block;
+}
+
 
 .banner-icon {
     display: flex;
